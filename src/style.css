@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("./img/fondo.png");
+  background-size: 100px 100px;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 375px;
+  height: 100vh;
+  margin: 0 auto;
+}
